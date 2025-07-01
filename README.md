@@ -66,12 +66,20 @@ Uygulama çalıştığında, API endpoint'lerine ve detaylı dokümantasyonuna S
 * **Swagger UI URL:** `http://localhost:8080/swagger-ui.html`
 
 Bu arayüz üzerinden tüm API'leri görüntüleyebilir, detaylarını inceleyebilir ve "Try it out" özelliğini kullanarak doğrudan test edebilirsiniz.
+Sayfanın görünümünün birkaç örnek görseli şu şekildedir:
+![api_ekran](https://github.com/user-attachments/assets/30acd1c0-ca5d-448f-a736-560a351eac6b)
+
+![api_ekran2](https://github.com/user-attachments/assets/1cf897b2-73fc-4796-8bb2-5e43b2082cdf)
+
 
 ## 🗄️ H2 Veritabanı Konsolu
 
 Geliştirme amacıyla kullanılan bellek içi H2 veritabanına web konsolu üzerinden erişebilirsiniz:
 
 * **H2 Console URL:** `http://localhost:8080/h2-console`
+Sayfanın görünümünün birkaç örnek görseli şu şekildedir:
+![db_ekran](https://github.com/user-attachments/assets/a26964be-3387-4bf7-bc09-02516bf3b241)
+![db_ekran2](https://github.com/user-attachments/assets/63085418-5d71-4e26-b691-d9e353feae46)
 
 Bağlantı Bilgileri:
 * **JDBC URL:** `jdbc:h2:mem:ecommerce_db`
