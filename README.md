@@ -80,6 +80,7 @@ Bağlantı Bilgileri:
 
 ## 📂 Proje Yapısı
 ecommerceapp/
+
 ├── src/
 
 │   ├── main/
@@ -87,16 +88,25 @@ ecommerceapp/
 │   │   ├── java/com/example/ecommerceapp/
 
 │   │   │   ├── EcommerceappApplication.java      # Ana uygulama sınıfı
+
 │   │   │   ├── controller/                     # REST API endpoint'leri
+
 │   │   │   ├── dto/                            # Veri Transfer Nesneleri
+
 │   │   │   ├── entity/                         # Veritabanı varlıkları (JPA)
+
 │   │   │   ├── exception/                      # Özel istisna sınıfları
+
 │   │   │   ├── repository/                     # Veritabanı erişim arayüzleri
+
 │   │   │   ├── service/                        # İş mantığı servisleri
+
 │   │   │   └── util/                           # Yardımcı sınıflar
+
 │   │   └── resources/
 
 │   │       └── application.properties          # Uygulama yapılandırmaları
+
 │   └── test/
 
 │       └── java/com/example/ecommerceapp/
