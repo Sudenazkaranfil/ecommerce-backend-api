@@ -81,8 +81,11 @@ Bağlantı Bilgileri:
 ## 📂 Proje Yapısı
 ecommerceapp/
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/com/example/ecommerceapp/
+
 │   │   │   ├── EcommerceappApplication.java      # Ana uygulama sınıfı
 │   │   │   ├── controller/                     # REST API endpoint'leri
 │   │   │   ├── dto/                            # Veri Transfer Nesneleri
@@ -92,10 +95,15 @@ ecommerceapp/
 │   │   │   ├── service/                        # İş mantığı servisleri
 │   │   │   └── util/                           # Yardımcı sınıflar
 │   │   └── resources/
+
 │   │       └── application.properties          # Uygulama yapılandırmaları
 │   └── test/
+
 │       └── java/com/example/ecommerceapp/
+
 │           └── EcommerceappApplicationTests.java # Test sınıfları
+
 ├── pom.xml                                     # Maven proje yapılandırma dosyası
+
 └── README.md # Bu dosya
 
